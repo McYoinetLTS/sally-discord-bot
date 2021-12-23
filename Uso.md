@@ -18,3 +18,9 @@ Los comandos administrativos, disponibles únicamente para el Staff del servidor
 
 ### Comandos de usuarios
 - `sally!info`
+
+## Permisos
+
+- Nivel 0: Usuarios
+- Nivel 1: Moderadores
+- Nivel 2: Administradores

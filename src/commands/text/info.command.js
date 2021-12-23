@@ -3,7 +3,7 @@ const { MessageEmbed } = require('discord.js');
 module.exports = {
     name: 'sally!info',
     data: {
-        permissionLevel: 0,
+        permiso: null,
         execute: async interaction => {
             let embed = new MessageEmbed()
                             .setColor(12796415)

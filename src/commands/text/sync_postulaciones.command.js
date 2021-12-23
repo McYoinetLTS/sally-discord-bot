@@ -3,7 +3,7 @@ const { MessageEmbed } = require('discord.js');
 module.exports = {
     name: 'e.sallyc sync_postulaciones',
     data: {
-        permissionLevel: 2,
+        permiso: 'e.sallyc.sync_postulaciones',
         execute: async interaction => {
             const logger = require('../../logger/logger');
             const colors = require('../../logger/colors');

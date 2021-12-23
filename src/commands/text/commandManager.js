@@ -18,7 +18,7 @@ async function registerCommands(client) {
             const msgName = colors.blackBg(colors.purple('name'));
             const msgExecute = colors.blackBg(colors.purple('execute'));
 
-            if (command.name != null && command.data.permissionLevel != null && command.data.execute != null){
+            if (command.name != null && command.data.permiso !== undefined && command.data.execute != null){
                 client.commands.set(command.name, command.data);
                 console.log(`${logger.info} Se registró el comando ${msgCommand} del archivo "${msgFile}".`);
             } else {
